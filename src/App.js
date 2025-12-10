@@ -1,5 +1,7 @@
 import Card from "./Card";
 import Counter from "./Counter";
+import Example from "./Example";
+import Example1 from "./Example1";
 import Footer from "./Footer";
 import Header from "./Header";
 import List from "./List";
@@ -8,6 +10,8 @@ import Students from "./Students";
 function App() {
   return (
     <>
+    <Example1/>
+      <Example />
       <Counter />
       <Header />
       <List />
