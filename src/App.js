@@ -1,27 +1,11 @@
-import Card from "./Card";
-import Counter from "./Counter";
-import Example from "./Example";
-import Example1 from "./Example1";
-import Footer from "./Footer";
-import Header from "./Header";
-import List from "./List";
-import Students from "./Students";
-
 function App() {
   return (
     <>
-    <Example1/>
-      <Example />
-      <Counter />
-      <Header />
-      <List />
-      <Students name="Anush" age={28} isStudent="true" />
-      <Students name="Ram" age={500} isStudent="false" />
-      <Card />
-      <Card />
-      <Card />
-      <Footer />
+    <div className="bg-red-600 ml-10 mb-4 p-2 cursor-pointer h-10 w-10 hover:bg-red-950">
+      Example
+    </div>
 
+    <button className="bg-blue-500 p-2 rounded-md text-white text-2xl transition-all duration-500 hover:bg-blue-950">Click Me</button>
     </>
   );
 }
