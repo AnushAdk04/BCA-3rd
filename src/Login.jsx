@@ -16,6 +16,10 @@ function Login() {
                     <input type="password" placeholder="Enter Your Password" className="border border-gray-300 w-full p-3 rounded-lg"/>
                 </div>
 
+                <button className="bg-blue-700 p-3 w-full font-semibold text-white rounded-lg mb-4">Log In</button>
+
+                <p className="text-sm text-center">Don't have an account? <p className="text-blue-700 cursor-pointer underline">Signup</p></p>
+
             </div>
 
         </div>
