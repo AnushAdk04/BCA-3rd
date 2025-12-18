@@ -18,7 +18,7 @@ function Login() {
 
                 <button className="bg-blue-700 p-3 w-full font-semibold text-white rounded-lg mb-4">Log In</button>
 
-                <p className="text-sm text-center">Don't have an account? <p className="text-blue-700 cursor-pointer underline">Signup</p></p>
+                <p className="text-sm text-center">Don't have an account? <p className="text-blue-700 underline">Signup</p></p>
 
             </div>
 
